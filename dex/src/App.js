@@ -20,7 +20,7 @@ function App() {
     <div className="mainWindow">
       <Routes>
         <Route path='/' element={<Swap isConnected={isConnected} address={address}/>}/>
-        <Route path='/' element={<Tokens/>}/>
+        {/* <Route path='/' element={<Tokens/>}/> */}
       </Routes>
     </div>
     </div>
